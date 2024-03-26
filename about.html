@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- load outfit font google -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="/img/BudgetMate Logo-02-01.png" type="image/x-icon">
+    <nav class="container">
+        <a href="./" class="logo">
+            <img src="/img/BudgetMate Logo-02-01.png" alt="BudgetMate">
+            <h1>BudgetMate</h1>
+        </a>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#screenshots">Screenshots</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+        <button class="menu" onclick="unfoldMobileNav()">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </button>
+    </nav>
+    <nav id="mobile-nav">
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#screenshots">Screenshots</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+</head>
+
+<body>
+    <header> 
+        <img src="/img/BudgetMate Logo-02-01.png" alt="BudgetMate" class="landing-logo">
+        <h1>About Me</h1>
+        <p>"Computer Science and Mechanical Engineer"</p>
+        <button onclick="scrollVH()">
+            Get to know me better
+            <span class="material-symbols-outlined">
+                expand_more
+            </span>
+        </button>
+    </header>
+    <main>
+        <section id="early-life">
+            <h2>Early Life</h2>
+            <p>
+                A 21 year old Computer Science Engineer with an passion for Full Stack Development, Mechatronics, and Mechanical
+                Engineering. Experience spans the full scope of software development, from conceptual design through to deployment.
+                A strong problem solver who takes iniciative and strives for excellence and quality in all software and engineering
+                projects. A natural leader and team player who listens and learns well and can manage complex projects end-to-end to
+                meet deadlines. Looking for the right role with an employer that will provide accelerated development and an
+                opportunity to learn new skills at the forefront of the technology industry            
+            </p>
+        </section>
+        <section id="cv">
+            <h2>Professional Experience</h2>
+            <p>
+                - <strong>COG Branding:</strong> Full Stack - Web Developer, 01/2024 - Present<br>
+                        Full-Time PHP Developer, specializing in the development and maintenance of diverse websites, leveraging expertise in
+                        PHP (HTML, CSS, JS), CMS platforms (WordPress, Shopify), and full-stack web technologies. Developed web solutions for
+                        small businesses, while building skills in creative problem-solving, attention to detail, and effective communication
+                        within a team environment.<br>
+                        <br>
+                - <strong>University of Applied Sciences Berlin:</strong> Mathematics Tutor, 09/2022 - Present<br>
+                        Part-time mathematics tutor for first and second semester students at HTW Berlin, helped them understand complex
+                        concepts and assisted with problem-solving techniques.
+            </p>
+            <h2>Education</h2>
+            <p>
+                - <strong>University of Applied Sciences Berlin:</strong> Bachelor of Science - Computer Science and Mechanical Engineering, 09/2021 - 05/2024<br>
+                    Linking Theory and Practice: The program combined practical software development with engineering
+                    fundamentals. Focus areas include programming, microprocessor technology and mechanics, as demonstrated in the
+                    final year SmartCatFeeder project.
+                    Project-based Learning Experiences: Worked on real projects self-initiated or in collaboration with industrial
+                    partners.<br>
+                    <br>
+                - <strong>University of Technology Sydney:</strong> Digital Twin & Agile Mgt, 02/2023 - 08/2023<br>
+                    Intensive engagement with the study and practical application of Digital Twinning for the creation, testing, and
+                    optimization of virtual models for physical entities.
+                    Acquired competencies in the principles and practices of Agile Management, focusing on iterative development,
+                    cross-functional collaboration, and customer orientation.<br>
+                    <br>
+                - <strong>Humbodt University of Berlin:</strong> Bachelor of Science  Physics, 10/2020 - 08/2021<br>
+                    Intensive engagement with the study and practical application of Digital Twinning for the creation, testing, and
+                    optimization of virtual models for physical entities.
+                    Acquired competencies in the principles and practices of Agile Management, focusing on iterative development,
+                    cross-functional collaboration, and customer orientation.<br>
+                    <br>
+                - <strong>German School of Barcelona:</strong> German International High School Diploma, 09/2007 - 05/2020<br>
+                    Allowed to skip year 9 due to academic excellence.<br>
+                    <br>
+            </p>
+            <h2>Scholarships</h2>
+            <p>
+                - <strong>PROMOS</strong> German Academic Exchange Service, 02/2024<br>
+                    <br>
+                - <strong>Digital Twin, Indusrty 4.0 and Agile Management</strong> German Academic Exchange Service, 02/2023<br>
+                    <br>
+                - <strong>Humbodt University of Berlin:</strong> Bachelor of Science  Physics, 10/2020 - 08/2021<br>
+                    <br>
+                - <strong>BAFOEG Scholarship:</strong> Federal Ministry of Education and Research (Germany), 09/2021<br>
+                    <br>
+            </p>
+            <p>
+                Please note that the app is still in development and that it does not yet work as intended. The app is
+                currently only usable for experimenting purposes and is not yet ready for public use.
+            </p>
+            <button class="download-apk">
+                <a href="static/apk/budgetmate-v0.1.0.apk" download="budgetmate-v0.1.0.apk" class="download">
+                    <span class="material-symbols-outlined">
+                        apk_install
+                    </span>
+                    Download APK
+                </a>
+            </button>
+        </section>
+        <hr>
+        <section id="screenshots">
+            <h2>Screenshots</h2>
+            <h3>Light mode</h3>
+            <div class="screenshots">
+                <img src="/img/HomePage_Dark.png" alt="Screenshot 1" class="screenshot">
+                <img src="/img/AddTransactionPage_Dark.png" alt="Screenshot 2" class="screenshot">
+                <img src="/img/BudgetPage _Dark.png" alt="Screenshot 3" class="screenshot">
+                <img src="/img/TransactionPage_Dark.png" alt="Screenshot 4" class="screenshot">
+            </div>
+            <h3>Dark mode</h3>
+            <div class="screenshots">
+                <img src="/img/HomePage_Dark.png" alt="Screenshot 1" class="screenshot">
+                <img src="/img/AddTransactionPage_Dark.png" alt="Screenshot 2" class="screenshot">
+                <img src="/img/BudgetPage _Dark.png" alt="Screenshot 3" class="screenshot">
+                <img src="/img/TransactionPage_Dark.png" alt="Screenshot 4" class="screenshot">
+            </div>
+        </section>
+        <hr>
+        <section id="about">
+            <h2>About</h2>
+            <p>
+                Developed by Jan Furio.
+            </p>
+            <h3>Technologies used</h3>
+            <p>
+                <a target="_blank" href="https://reactnative.dev/">Kotlin</a>,
+                <a target="_blank" href="https://expo.io/">Room Database</a>,
+                <a target="_blank" href="https://callstack.github.io/react-native-paper/">Material UI 3.0</a>,
+                <a target="_blank" href="https://reactnavigation.org/">MVVM</a>,
+                <a target="_blank" href="https://www.djangoproject.com/">IDE: Android Studio</a>,
+                <a target="_blank" href="https://www.django-rest-framework.org/">Django REST Framework</a>,
+
+            </p>
+            <a class="github-button" href="https://github.com/janfurio/budgetmate"
+                data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star"
+                data-size="large" aria-label="Star janfurio/budgetmate on GitHub">
+                Star
+            </a>
+            <a class="github-button" href="https://github.com/janfurio"
+                data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large"
+                aria-label="Follow @janfurio on GitHub">
+                Follow @janfurio
+            </a>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li>2024 BudgetMate</li>
+            <li><a href="https://budgetmate.com">www.budgetmate.com</a></li>
+        </ul>
+    </footer>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+
+</html>
