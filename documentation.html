@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="js/script.js"></script>
+    <link rel="shortcut icon" href="/documents/img/BudgetMate Logo-02-01.png" type="image/x-icon">
+    <nav class="container">
+        <a href="./" class="logo">
+            <img src="/documents/img/BudgetMate Logo-02-01.png" alt="BudgetMate">
+            <h1>BudgetMate</h1>
+        </a>
+        <ul>
+            <li><a href="index.html">Overview</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="documentation.html">Documentation</a></li>
+            <li><a href="https://www.bar-code.org">Discover More</a></li>
+        </ul>
+        <button class="menu" onclick="unfoldMobileNav()">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </button>
+    </nav>
+    <nav id="mobile-nav">
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="documentation.html">Documentation</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+</head>
+
+<body>
+    <main>
+        <section id="cv">
+            <h2>Download the Presentation</h2>
+            <p>
+                Discover the features and benefits of BudgetMate with our presentation. 
+                Learn how it simplifies financial management and helps achieve your goals. 
+                Download the BudgetMate Presentation PDF now and start improving your budgeting skills.
+            </p>
+            <button class="download-apk">
+                <a href="/documents/pdf/BudgetMate - Presentation.pdf" download="BudgetMate-Presentation.pdf"><span class="material-symbols-outlined">download</span> Download The BudgetMate Presentation (PDF)</a>
+            </button>
+            <h2>Understanding the File Structure of Budget Mate</h2>
+            <p>
+                Budget Mate is an intuitive budgeting application for Android devices that brings a seamless experience in financial tracking. 
+                The app’s architecture is designed to support easy navigation and operation for developers and users alike.
+            </p>
+            
+            <h2>App Overview</h2>
+            <p>
+                The app is divided into several directories, each serving a specific purpose in the application's functionality and design.
+            </p>
+            
+            <h3>Manifests Directory</h3>
+            <p>Contains <code>AndroidManifest.xml</code>, which defines the app's essential attributes like permissions, activities, and SDK compatibility.</p>
+            
+            <h3>Kotlin + Java Directory</h3>
+            <p>Home to the Kotlin and Java source files that power the application logic.</p>
+            
+            <h4>Main Package</h4>
+            <p>The <code>com.janstudios.budgit</code> is the main package directory for the app's code.</p>
+            
+            <h4>Adapters Subdirectory</h4>
+            <p>Handles the display of list items in various views, with classes such as <code>BudgetAdapter</code>, <code>LatestTransactionAdapter</code>, and <code>TransactionAdapter</code> designed for specific data displays.</p>
+            
+            <h4>Animations Subdirectory</h4>
+            <p>Contains animations for user interactions, like the <code>SwipeToDeleteCallback</code> for enabling swipe gestures to delete items.</p>
+            
+            <h4>Database Subdirectory</h4>
+            <p>Manages data persistence with classes such as <code>BudgetDao</code>, <code>BudgetDatabase</code>, <code>TransactionDao</code>, <code>UserBudget</code>, and <code>UserTransaction</code>.</p>
+            
+            <h4>Fragments Subdirectory</h4>
+            <p>Represents different screens within the app, including <code>AddTransaction</code>, <code>Budget</code>, <code>Home</code>, and <code>Transaction</code>.</p>
+            
+            <h3>Resources (res) Directory</h3>
+            <p>A repository for all non-code assets, from images to XML-based drawable resources and layouts defining the app's UI structure.</p>
+            
+            <h2>Features and Contributions</h2>
+            <p>Budget Mate isn’t just a testament to clean design but also to community-driven development, with features like Category Management, Expense Tracking, and Data Visualization designed for clarity and control over personal finances.</p>
+            
+            <h2>Getting Started for Developers</h2>
+            <p>Setting up the project for development is straightforward, requiring Android Studio and SDK API 24 or higher. Developers have the option to either download the APK directly for testing or build from the source available on GitLab.</p>
+            
+            <h2>Licensing</h2>
+            <p>Budget Mate is released under the MIT License, which encourages free distribution and modification with the right attribution, maintaining an ethos of transparency and openness.</p>
+            
+        </section>
+        <hr>
+        
+        <section id="about">
+            <h3>Follow Me On</h3>
+            <a class="github-button" href="https://github.com/janfurio/budgetmate"
+                data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star"
+                data-size="large" aria-label="Star janfurio/budgetmate on GitHub">
+                Star
+            </a>
+            <a class="github-button" href="https://github.com/janfurio"
+                data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large"
+                aria-label="Follow @janfurio on GitHub">
+                Follow @janfurio
+            </a>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li>2024 BudgetMate</li>
+            <li>Developed by Jan Furio</li>
+            <li><a href="https://budget-mate.org">www.budget-mate.org</a></li>
+        </ul>
+    </footer>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+
+</html>

@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Inter', sans-serif;
     background-color: var(--background);
     color: var(--primary);
 }
@@ -29,7 +29,7 @@ strong {
 }
 
 button {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 p {
@@ -89,9 +89,9 @@ nav {
     gap: 10px;
     position: sticky;
     top: 0;
-    border-bottom: solid 1px var(--background-2);
     box-shadow: 0 0 10px var(--primary-semi);
 }
+
 nav > ul {
     display: flex;
     justify-content: start;
@@ -249,7 +249,7 @@ nav > .menu:hover {
 nav > .menu > span {
     font-size: 2.2em;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
     nav > ul {
         display: none;
     }
@@ -257,7 +257,7 @@ nav > .menu > span {
         display: flex;
     }
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1000px) {
     #mobile-nav {
         display: none;
     }
