@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoMate</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="js/script.js"></script>
+    <link rel="shortcut icon" href="/documents/img/BudgetMate_Logo_Mobile.png" type="image/x-icon">
+    <nav class="container">
+        <a href="./" class="logo">
+            <img src="/documents/img/ToDo - Mate_Logo.png" alt="BudgetMate">
+            <h1>ToDoMate</h1>
+        </a>
+        <ul>
+            <li><a href="index.html">Overview</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="documentation.html">Documentation</a></li>
+            <li><a href="todomate.html">ToDoMate</a></li>
+        </ul>
+        <button class="menu" onclick="unfoldMobileNav()">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </button>
+    </nav>
+    <nav id="mobile-nav">
+        <ul>
+            <li><a href="index.html">Overview</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="documentation.html">Documentation</a></li>
+            <li><a href="todomate.html">ToDoMate</a></li>
+        </ul>
+    </nav>
+</head>
+
+<body>
+    <main>
+        <section id="overview">
+            <h2>Overview</h2>
+            <p>
+                <strong>ToDoMate</strong> is a dynamic to-do list application crafted using React Native and Expo, 
+                ensuring a seamless experience across Android platforms. Integrating Firebase for backend services 
+                and Firebase Auth for secure user authentication, ToDoMate offers a reliable and secure way to manage 
+                your daily tasks. Designed with simplicity in mind, it provides an engaging and efficient solution 
+                for task management.
+            </p>
+            <p>
+                Future updates will introduce the ability to share tasks with friends, enhancing collaboration and productivity. iOS compatibility is also planned for the near future.
+            </p>
+        </section>
+        <hr>
+        <section id="features">
+            <h2>Features</h2>
+            <p>
+                - <strong>Task Management</strong>: Easily add, edit, and organize tasks.<br>
+                - <strong>Firebase Integration</strong>: Uses Firebase for robust data management and secure authentication.<br>
+                - <strong>Simplified Design</strong>: A minimalist UI that focuses on usability and clarity.<br>
+                - <strong>Sharing Capability</strong>: (COMING SOON) Share your tasks and to-do lists with friends for enhanced collaboration.<br>
+            </p>
+            <p>
+                <i>
+                    Please note: ToDoMate is currently in the experimental phase, intended for testing and learning purposes only.
+                </i>
+            </p>
+            <button class="download-apk">
+                <a href="documents/apk/ToDoMate - v0.0.1.apk" download="ToDoMate - v0.0.1.apk" class="download">
+                    <span class="material-symbols-outlined">
+                        apk_install
+                    </span>
+                    Download APK v0.0.1
+                </a>
+            </button>
+        </section>
+        <hr>
+        <section id="screenshots">
+            <h2>Screenshots</h2>
+            <h3>Light mode Android</h3>
+            <div class="screenshots">
+                <img src="/documents/img/todomate/ToDoMate Welcome Screen Light.jpg" alt="Welcome Screen Light" class="screenshot">
+                <img src="/documents/img/todomate/ToDoMate Log In Screen Light.jpg" alt="Log In Screen Light" class="screenshot">
+                <img src="/documents/img/todomate/ToDoMate Sign Up Screen Light.jpg" alt="Sign Up Screen Light" class="screenshot">
+                <img src="/documents/img/todomate/ToDoMate Reset Your Password Screen Light.jpg" alt="Reset Password Screen Light" class="screenshot">
+                <img src="/documents/img/todomate/ToDoMate Check Your Emails Screen Light.jpg" alt="Email Sent Screen Light" class="screenshot">
+                <img src="/documents/img/todomate/ToDoMate ToDos Screen Light.jpg" alt="ToDos Screen Light" class="screenshot">
+                <img src="/documents/img/todomate/ToDoMate Settings Screen Light.jpg" alt="Welcome Screen Light" class="screenshot">
+            </div>
+        </section>
+        <hr>
+        
+        <section id="about">
+            <h3>Follow Me On</h3>
+            <a class="github-button" href="https://github.com/jj0003/ToDoMate"
+                data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star"
+                data-size="large" aria-label="Star janfurio/ToDoMate on GitHub">
+                Star
+            </a>
+            <a class="github-button" href="https://github.com/jj0003"
+                data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large"
+                aria-label="Follow @janfurio on GitHub">
+                Follow @janfurio
+            </a>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li>2024 MateSuite</li>
+            <li><a href="https://budget-mate.org">www.budget-mate.org</a></li>
+        </ul>
+    </footer>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+
+</html>

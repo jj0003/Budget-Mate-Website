@@ -249,6 +249,14 @@ nav > .menu:hover {
 nav > .menu > span {
     font-size: 2.2em;
 }
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
 @media screen and (max-width: 1000px) {
     nav > ul {
         display: none;
