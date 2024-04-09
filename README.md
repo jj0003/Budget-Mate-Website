@@ -17,7 +17,7 @@ Welcome to the Mate Suite, the future of open-source application suites designed
   - Categories Management
   - Data Visualization
 
-[Learn more about BudgetMate](#budgetmate)
+[Learn more about BudgetMate]([https://github.com/jj0003/BudgetMate](https://github.com/jj0003/Budget-Mate-APK))
 
 ### ToDoMate
 
@@ -31,7 +31,7 @@ Welcome to the Mate Suite, the future of open-source application suites designed
   - Sharing Capability
   - iOS Compatibility
 
-[Learn more about ToDoMate](#todomate)
+[Learn more about ToDoMate](https://github.com/jj0003/ToDoMate)
 
 ## Getting Started
 
